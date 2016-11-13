@@ -24,7 +24,7 @@ body {
 
 .welcome-content {
   position: absolute;
-  top: 40%;
+  top: 50%;
   transform: translateY(-50%);
   left: 5%;
   width: 33%;
@@ -32,11 +32,11 @@ body {
 }
 
 .welcome-header {
-  font-size: 38px;
+  font-size: 48px;
 }
 
 .welcome-subheader {
-
+  font-size: 34px;
 }
 
 .signup-button {
