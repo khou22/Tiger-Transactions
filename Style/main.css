@@ -24,15 +24,15 @@ body {
 
 .welcome-content {
   position: absolute;
-  top: 35%;
+  top: 40%;
   transform: translateY(-50%);
-  left: 10%;
-  width: 30%;
+  left: 5%;
+  width: 33%;
   text-align: center;
 }
 
 .welcome-header {
-
+  font-size: 38px;
 }
 
 .welcome-subheader {
@@ -76,9 +76,12 @@ body {
 }
 
 .stat-card {
+  display: inline-block;
   border: 1px solid black;
   border-radius: 6px;
   background-color: white;
+  margin: 1%;
+  width: 30%;
 }
 
 .stat-image {
@@ -100,31 +103,17 @@ body {
 }
 
 .about {
-  height: 50vh;
-  background-color: rgb(240, 241, 246)
+  background-color: rgb(240, 241, 246);
 }
 
-.about-picture-div {
-  width: 40%;
-  height: 100%;
-  float: left;
+.section-header {
+  color: #EE7F2D;
+  margin-left: 24px;
 }
 
-.about-img {
-  position: relative;
-  margin: auto;
-  width: 40vh;
-  height: 40vh;
-  top: 5vh;
-  background-color: black;
-  background-image: url(../Media/Square_Placeholder.jpg);
-  background-size: contain;
-}
-
-.about-text {
-  width: 55%;
-  float: right;
-  padding-right: 5%;
+.section-text {
+  font-size: 18px;
+  margin: 24px;
 }
 
 .testimonials {

@@ -11,7 +11,7 @@ header {
 .site-title {
   display: inline-block;
   margin-left: 6px;
-  margin-right: 12px;
+  margin-right: 36px;
 }
 
 .main-menu {
@@ -22,15 +22,16 @@ header {
 a.main-menu:link {
   /*Remove underline from links*/
   text-decoration: none;
-  color: black;
+  color: #EE7F2D;
 }
 
 a.nav-link:hover {
-  color: grey;
+  color: #EE7F2D;
 }
 
 a {
   cursor: pointer;
+  color: #EE7F2D;
 }
 
 .nav-link {
