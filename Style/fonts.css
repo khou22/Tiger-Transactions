@@ -9,11 +9,21 @@
    font-weight: italic;
 }
 
-@@font-face {
-  font-family: Hack;
-  src: url(../Assets/Fonts/Hack/Hack-Regular.ttf);
+@font-face {
+  font-family: CooperHewitt_Thin;
+  src: url(../Assets/Fonts/CooperHewitt/CooperHewitt-Thin.otf);
+}
+
+@font-face {
+  font-family: CooperHewitt_ThinItalic;
+  src: url(../Assets/Fonts/CooperHewitt/CooperHewitt-ThinItalic.otf);
+}
+
+@font-face {
+  font-family: CooperHewitt_Book;
+  src: url(../Assets/Fonts/CooperHewitt/CooperHewitt-Book.otf);
 }
 
 * {
-  font-family: Hack;
+  font-family: CooperHewitt_Book;
 }

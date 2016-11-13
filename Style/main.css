@@ -10,6 +10,7 @@ body {
   background-color: white;
   background-image: url("../Media/Welcome_Image.jpg");
   background-size: cover;
+  background-position: center;
   position: fixed;
   z-index: -1; /*Always on bottom*/
 }
