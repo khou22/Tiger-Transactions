@@ -103,6 +103,7 @@ body {
 }
 
 .about {
+  height: 40vh;
   background-color: rgb(240, 241, 246);
 }
 
@@ -117,9 +118,9 @@ body {
 }
 
 .testimonials {
-  height: 50vh;
+  height: 40vh;
   background-color: rgb(218, 219, 221);
-  padding: 3vw;
+  padding: 24px;
 }
 
 .signup {
